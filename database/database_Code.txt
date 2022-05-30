@@ -1,0 +1,268 @@
+create database AlumniUnit;
+use AlumniUnit;
+
+
+create table alumni (
+username varchar(255),
+password varchar(255),
+college varchar(255),
+graduationYear varchar(255),
+graduationSemester varchar(255),
+UniversityID varchar(255),
+NationalID varchar(255),
+Name varchar(255),
+Nationality varchar(255),
+GPA varchar(255),
+Grade varchar(255),
+Email varchar(255),
+MobileNo varchar(255),
+Major varchar(255),
+HonorGrade varchar(255),
+WorkSector varchar(255),
+EmploymentDate varchar(255),
+Employer varchar(255),
+Department varchar(255),
+EmployerAddress varchar(255),
+CompanyContactNo varchar(255),
+EmployerEmail varchar(255),
+SupervisorName varchar(255),
+OtherWorks varchar(255),
+isLookingForAJob varchar(255),
+SocialMedia varchar(255),
+FamilyContactNo varchar(255)
+
+);
+
+
+
+ALTER Table Alumni
+ADD PRIMARY KEY (NationalID);
+
+
+
+
+
+
+
+
+
+create table ExpectedGraduate (
+username varchar(255),
+password varchar(255),
+college varchar(255),
+yearExpectedGraduate varchar(255),
+semesterExpectedGraduate varchar(255),
+UniversityID varchar(255),
+NationalID varchar(255),
+Name varchar(255),
+Nationality varchar(255),
+Major varchar(255),
+GPA varchar(255),
+Grade varchar(255),
+MobileNo varchar(255),
+Email varchar(255),
+RegisteredHours varchar(255),
+RegisteredCourses varchar(255),
+RemainingHours varchar(255),
+RemainingCourses varchar(255),
+HonorGrade varchar(255),
+WorkSector varchar(255),
+EmploymentDate varchar(255),
+Employer varchar(255),
+Department varchar(255),
+EmployerAddress varchar(255),
+CompanyContactNo varchar(255),
+EmployerEmail varchar(255),
+SupervisorName varchar(255),
+OtherWorks varchar(255),
+isLookingForAJob varchar(255),
+SocialMedia varchar(255),
+FamilyContactNo varchar(255),
+PRIMARY KEY (NationalID)
+
+
+
+);
+
+
+create table jobopportunity(
+dateannounced timestamp,
+jobnumber varchar(255),
+jobname varchar(255),
+jobdescription varchar(255),
+jobrequirements varchar(255),
+jobskillsrequirements varchar(255),
+contactnumber varchar(255),
+email varchar(255),
+requireddocuments varchar(255),
+deadlinedate date);
+        
+
+
+create table Company(
+username varchar(255),
+password varchar(255),
+companyName varchar(255),
+address varchar(255),
+companyField varchar(255),
+contactNo varchar(255),
+email varchar(255),
+PRIMARY KEY (companyName));
+
+
+
+
+create table Survey_graduates(
+q1 int ,
+q2 int ,
+q3 int ,
+q4 int ,
+q5 int ,
+q6 int ,
+q7 int ,
+q8 int ,
+q9 int ,
+q10 int ,
+q11 int ,
+q12 int ,
+q13 int ,
+q14 int ,
+q15 int ,
+q16 int ,
+q17 int ,
+q18 int ,
+q19 int ,
+q20 int ,
+q21 int ,
+
+average int ,
+DateAndTime timestamp ,
+NationalID varchar(255),
+
+foreign key (NationalID) references alumni(NationalID)
+
+
+);
+
+create table Survey_reality_programs(
+q1 int ,
+q2 int ,
+q3 int ,
+q4 int ,
+q5 int ,
+q6 int ,
+q7 int ,
+q8 int ,
+q9 int ,
+q10 int ,
+q11 int ,
+q12 int ,
+q13 int ,
+q14 int ,
+q15 int ,
+q16 int ,
+q17 int ,
+q18 int ,
+q19 int ,
+q20 int ,
+q21 int ,
+
+
+
+average int ,
+DateAndTime timestamp ,
+companyName varchar(255),
+
+foreign key (companyName) references Company(companyName)
+
+);
+
+
+
+
+
+create table survey_emp_graduate(
+q1 int ,
+q2 int ,
+q3 int ,
+q4 int ,
+q5 int ,
+q6 int ,
+q7 int ,
+q8 int ,
+q9 int ,
+q10 int ,
+q11 int ,
+q12 int ,
+q13 int ,
+q14 int ,
+q15 int ,
+q16 int ,
+q17 int ,
+q18 int ,
+q19 int ,
+q20 int ,
+q21 int ,
+q22 int ,
+
+
+average int ,
+DateAndTime timestamp ,
+companyName varchar(255),
+
+foreign key (companyName) references Company(companyName)
+
+);
+
+
+
+
+
+
+
+create table cv (
+fir_name varchar(255),
+fat_name varchar(255),
+gfat_name varchar(255),
+L_name varchar(255),
+sex varchar(255),
+date_birth date ,
+place_birth varchar(255),
+nationality varchar(255),
+id varchar(255),
+num_phone varchar(255),
+email varchar(255),
+social_status varchar(255),
+are_emp varchar(255),
+languages varchar(255),
+qualification varchar(255),
+major varchar(255),
+graduation_year varchar(255),
+gpa varchar(255),
+experience varchar(255),
+skills varchar(255),
+courses varchar(255),
+
+NationalID varchar(255),
+
+foreign key (NationalID) references alumni(NationalID)
+
+);
+
+
+create table contact (
+name varchar(255),
+email varchar(255),
+message varchar(255)
+);
+
+
+
+
+
+
+
+
+
+
+
