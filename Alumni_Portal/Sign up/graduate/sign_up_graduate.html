@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="sign_up_graduate.css">
+    
+    <title>تسجيل خريج </title>
+</head>
+<body>
+    
+
+    <div id="graduate" class="graduate_registration" >
+
+        <h1> تسجيل بيانات الخريج  </h1>
+
+
+        <form id="registration" action="../../../php/graduate_registration.php" method="post">   
+
+            <ul class="ul_reg">
+
+
+
+        
+                <li> <label> اسم المستخدم : </label>
+                    <input id="user" type="text" name="user" placeholder=" ادخل اسم المستخدم " required>
+                    </li>
+
+                <li> <label for="college"> الكلية :</label>
+                <select  class="select_first" name="college">
+                    <option hidden selected></option>
+                    <option value="كلية علـوم وهندسـة الحاسب الألي"> كلية علـوم وهندسـة الحاسب الألي</option>
+                
+                </select>
+            
+                </li>
+
+                <li> <label for="year_graduated">  عام التخرج  :</label>
+                <select class="select_first" name="year_graduated">
+                    <option hidden selected></option>
+
+                    <option value="1439"> 1439</option>
+                    <option value="1440"> 1440</option>
+                    <option value="1441"> 1441</option>
+                    <option value="1442"> 1442</option>
+                    <option value="1443"> 1443</option>
+                    <option value="1444"> 1444</option>
+                    <option value="1445"> 1445</option>
+                    <option value="1446"> 1446</option>
+                    <option value="1447"> 1447</option>
+                    
+                </select>
+                </li>
+                
+            <li>   <label for="graduation_semester">  فصل التخرج :</label>
+                <select class="select_first" name="graduation_semester" >
+                    <option hidden selected></option>
+
+                    <option value="الفصل الاول">  الفصل الاول</option>
+                    <option value="الفصل الثاني">  الفصل الثاني</option>
+                    <option value="الفصل الثالث">  الفصل الثالث</option>
+
+                </select>
+            
+            </li>
+
+                <li><label for="supervisor">مشرف/<br>مشرفة الوحدة :</label>
+                <input id="supervisor" type="text" name="supervisor" placeholder=" ادخل اسم مشرف / مشرفة الوحدة" required>
+
+                </li>
+
+                <li><label for="un_id">الرقم الجامعي :</label>
+                <input id="un_id" type="text" name="un_id" placeholder=" ادخل الرقم الجامعي " required>
+                </li>
+
+                <li><label for="id">السجل المدني :</label>
+                <input id="id" type="number" name="id" placeholder=" ادخل السجل المدني" required>
+                </li>
+
+                <li><label for="student_name">اسم الطالب :</label>
+                <input id="student_name" type="text" name="student_name" placeholder=" ادخل الاسم " required>
+                </li>
+
+                <li><label for="nationality">الجنسية :</label>
+                <input id="nationality" type="text" name="nationality" placeholder=" ادخل الجنسية" required>
+                </li>
+            
+            
+                <li> <label for="gpa">المعدل : </label> 
+                <input id="gpa" type="text" name="gpa" placeholder=" ادخل المعدل " required>
+                </li>
+
+
+                <li><label for="supervisor_name">اسم المدير/ة :</label>
+                    <input id="supervisor_name" type="text" name="supervisor_name" placeholder=" ادخل اسم المدير/ة" required>
+                </li>
+
+                <li><label for="so_media">التواصل الاجتماعي :</label>
+                    <input id="so_media" type="text" name="so_media" placeholder="  " required>
+                </li>
+
+                <li><label for="se_work">لا يعمل ويبحث<br> عن عمل :</label>
+                    <input id="se_work" type="text" name="se_work" placeholder="  " required>
+                </li>
+
+                <li><label for="other">أعمل أخرى :</label>
+                    <input id="other" type="text" name="other" placeholder=" أعمل أخرى" required>
+                </li>
+
+                <li><label for="fa_phone">أرقام تواصل<br> قريب/صديق :</label>
+                    <input id="fa_phone" type="text" name="fa_phone" placeholder="  " required>
+                </li>
+
+            
+
+
+
+
+            </ul>
+
+
+
+        <ul class="ul_reg_2">
+
+            
+        
+            <li><label> كلمة المرور : </label> 
+                <input id="password" type="password" name="password" placeholder=" ادخل كلمة المرور " required>
+            </li>
+            
+            <li> 
+                <label for="grade">  التقدير :</label>
+                <select id="grade" name="grade" >
+                    <option hidden selected></option>
+    
+                    <option value="ممتاز مرتفع"> ممتاز مرتفع</option>
+                    <option value="ممتاز"> ممتاز </option>
+                    <option value="جيد جدا مرتفع"> جيد جدا مرتفع</option>
+                    <option value="جيد جدا"> جيد جدا </option>
+                    <option value="جيد مرتفع"> جيد مرتفع</option>
+                    <option value="جيد"> جيد </option>
+                    <option value="مقبول مرتفع"> مقبول مرتفع</option>
+                    <option value="مقبول"> مقبول </option> 
+    
+                </select>
+            
+            </li>
+    
+            <li><label for="email">البريد الالكتروني :</label>
+                <input id="email" type="email" name="email" placeholder=" ادخل الايميل " required>
+            </li> 
+
+            <li><label for="phone_number">رقم الجوال :</label>
+                <input id="phone_number" type="text" name="phone_number" placeholder=" ادخل رقم الجوال " required>
+            </li> 
+
+
+            <li> 
+                <label for="major">  التخصص :</label>
+                <select id="major" name="major" >
+                    <option hidden selected></option>
+    
+                    <option value="علوم الحاسب"> علوم الحاسب</option>
+                    <option value="هندسة الحاسب"> هندسة الحاسب  </option>
+                    <option value="هندسة البرمجيات"> هندسة البرمجيات </option>
+                    
+    
+                </select>
+            
+            </li>
+
+            <li> 
+                <label for="honours">  مرتبة الشرف (ان وجد) :</label>
+                <select id="honours" name="honours" >
+                    <option hidden selected></option>
+    
+                    <option value="مرتبة الشرف الأولى"> مرتبة الشرف الأولى</option>
+                    <option value="مرتبة الشرف الثانية"> مرتبة الشرف الثانية  </option>
+                    <option value="مرتبة الشرف الثالثة"> مرتبة الشرف الثالثة </option>
+                    
+    
+                </select>
+            
+            </li>
+
+            <li><label for="employer">جهة التوظيف :</label>
+                <input id="employer" type="text" name="employer" placeholder=" ادخل اسم جهة التوظيف" required>
+                </li>
+                    
+    
+                <li><label for="emp_phone">جوال جهة التوظيف :</label>
+                    <input id="emp_phone" type="text" name="emp_phone" placeholder=" ادخل جوال جهة التوظيف" required>
+                </li>
+    
+                <li> <label  for="emp_email">البريد الالكتروني <br>لجهة التوظيف </label>
+                    <input id="emp_email" type="text" name="emp_email" placeholder=" ادخل البريد االالكتروني لجهة التوظيف" required>
+                </li>
+
+
+            <li> 
+                <label for="se_emp">  موظف في القطاع :</label>
+                <select id="se_emp" name="se_emp" >
+                    <option hidden selected></option>
+    
+                    <option value="العام"> العام</option>
+                    <option value="الخاص"> الخاص  </option>
+                    
+                    
+    
+                </select>
+            
+            </li>
+
+
+            <li><label for="date_employment">تاريخ التوظيف :</label>
+                <input type="date" id="date_employment" name="date_employment">
+            </li>   
+            
+            
+            <li><label for="department">الإدارة / القسم :</label>
+                <input id="department" type="text" name="department" placeholder=" ادخل اسم الإدارة / القسم" required>
+            </li>
+
+
+            <li><label for="emp_address">عنوان جهة التوظيف :</label>
+                <input id="emp_address" type="text" name="emp_address" placeholder=" ادخل عنوان جهة التوظيف" required>
+            </li>
+
+            
+
+        
+
+        </ul>
+
+        <input id="submit" type="submit" value=" تسجيل ">
+
+        </form>
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>

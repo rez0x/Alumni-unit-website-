@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+
+body{
+    background-image: url(../../imge/CCSE.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    
+    
+}
+
+
+
+
+
+
+
+ul li  {
+    font-size:16px;
+}
+
+
+
+.graduate_registration{
+
+    width: 850px;
+    height: 930px;
+    background: #ffffffc7;
+    border-radius: 15px;
+    top: 10px;
+    right: 250px;
+    position: relative;
+}
+
+
+.graduate_registration h1{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    
+}
+
+.ul_reg li{
+    padding: 10px;
+
+    list-style-type: none;
+    
+}
+
+.ul_reg{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+
+.ul_reg_2{
+    position: absolute;
+    top: 95px;
+    right: 420px;
+}
+
+.ul_reg_2  li {
+    padding: 15px;
+    list-style-type: none;
+}
+
+
+#registration  input , select{
+
+    font-size: 16px;
+    border-radius: 5px;
+    
+    
+}
+
+
+
+
+
+#submit{
+    position: absolute;
+    bottom: 25px;
+    right: 350px;
+    width: 138px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+
+#registration label {
+    width: 140px;
+    display: inline-block;
+}
+
+#registration select , input{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * select{
+    font-size: 15px;
+}
+.graduate_registration{
+
+    width: 900px;
+    height: 800px;
+    background: #0d2c4b31;
+    border-radius: 15px;
+    top: 273px;
+    right: 380px;
+    
+    
+
+}
+
+.graduate_registration h1{
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+
+.select_first , #supervisor{
+    padding: 4px 3px;
+    border-radius: 7px;
+}
+
+.i_padding{
+    padding: 32px;
+}
+
+
+
+
+#supervisor  ,  #un_id  ,  #id  ,  #student_name ,  #nationality , #gpa{
+    padding: 4px 3px;
+    margin: 10px;
+    border-radius: 7px;
+} 
+
+#nationality{
+    margin-right: 35px;
+}
+
+#student_name{
+    margin-right: 20px;
+}
+
+.ul_reg li{
+    padding: 10px;
+
+    list-style-type: none;
+    
+}
+
+
+.ul_reg_2{
+    margin: -455px 466px 20px 20px;
+}
+
+
+
+.ul_reg_2  li {
+    padding: 15px;
+    list-style-type: none;
+}
+
+#student_name , #email , #phone_number , #major , #estimate_select{
+    padding: 4px 3px;
+    border-radius: 7px;
+    
+}
+
+
+#gpa{
+    margin-right: 43px;
+}
+
+
+#estimate_select{
+    margin-right: 55px;
+}
+
+
+#phone_number , #student_name, #major {
+    margin-right: 32px; 
+    
+} */
