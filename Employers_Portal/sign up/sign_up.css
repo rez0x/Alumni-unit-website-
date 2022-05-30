@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+
+body{
+    background-image: url(../imge/CCSE.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    
+    
+}
+
+
+
+.register_user{
+
+    width: 480px;
+    height: 570px;
+    background: #ffffffe0;
+    border-radius: 15px;
+    top: 50px;
+    right: 480px;
+    position: relative;
+}
+
+
+.register_user h1{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    
+}
+
+
+#register ul input{
+
+    font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+    /* left: 80px; */
+    background:  transparent;
+    height: 30px;
+    border: 2px solid #000000;
+    outline: none;
+    padding:  0 10px;
+}
+
+
+#register ul input:focus {
+    border: 2px solid #2691d9;
+
+}
+
+
+
+ul li  {
+    font-size:16px;
+}
+
+
+
+
+#register li{
+    padding: 10px;
+
+    list-style-type: none;
+    
+}
+
+#register ul {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    
+}
+
+
+#submit{
+    position: absolute;
+    bottom: 10px;
+    right: 155px;
+    width: 138px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+
+#register li label{
+    width: 113px;
+    display: inline-block;
+    /* position: relative;
+    top: 0;
+    right: 45px; */
+}
+
+
+#submit{
+    width: 40%;
+    height: 40px;
+    font-size: 18px;
+    border:  1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    color: white;
+    cursor: pointer;
+    outline: none;
+
+}
+
+#submit:hover{
+    border-color: #2691d9;
+    transition: 0.5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * select{
+    font-size: 15px;
+}
+.graduate_registration{
+
+    width: 900px;
+    height: 800px;
+    background: #0d2c4b31;
+    border-radius: 15px;
+    top: 273px;
+    right: 380px;
+    
+    
+
+}
+
+.graduate_registration h1{
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+
+.select_first , #supervisor{
+    padding: 4px 3px;
+    border-radius: 7px;
+}
+
+.i_padding{
+    padding: 32px;
+}
+
+
+
+
+#supervisor  ,  #un_id  ,  #id  ,  #student_name ,  #nationality , #gpa{
+    padding: 4px 3px;
+    margin: 10px;
+    border-radius: 7px;
+} 
+
+#nationality{
+    margin-right: 35px;
+}
+
+#student_name{
+    margin-right: 20px;
+}
+
+.ul_reg li{
+    padding: 10px;
+
+    list-style-type: none;
+    
+}
+
+
+.ul_reg_2{
+    margin: -455px 466px 20px 20px;
+}
+
+
+
+.ul_reg_2  li {
+    padding: 15px;
+    list-style-type: none;
+}
+
+#student_name , #email , #phone_number , #major , #estimate_select{
+    padding: 4px 3px;
+    border-radius: 7px;
+    
+}
+
+
+#gpa{
+    margin-right: 43px;
+}
+
+
+#estimate_select{
+    margin-right: 55px;
+}
+
+
+#phone_number , #student_name, #major {
+    margin-right: 32px; 
+    
+} */

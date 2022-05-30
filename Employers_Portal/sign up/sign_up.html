@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="sign_up.css">
+    
+    <title>تسجيل مستخدم جديد</title>
+</head>
+<body>
+    
+
+    <div class="register_user" >
+
+        <h1> تسجيل مستخدم جديد  </h1>
+
+        <form id="register" action="../../php/company_registration.php" method="post">   
+
+        <ul >
+
+
+
+            <li> <label for="username"> اسم المستخدم : </label>
+                <input class="form_input" id="username" type="text" name="username"  required>
+            </li>
+
+            <li> <label class="form_label" > كلمة المرور : </label> 
+                <input class="form_input" id="password" type="password" name="password"  required>
+            </li>
+
+            <li> <label class="form_label" > اسم الشركة : </label>
+                <input class="form_input" id="company_name" type="text" name="company_name"  required>
+            </li>
+
+            <li> <label class="form_label" > عنوان الشركة  : </label>
+                <input class="form_input" id="address" type="text" name="address"  required>
+            </li>
+
+            <li> <label class="form_label" > مجال العمل  : </label>
+                <input class="form_input" id="company_field" type="text" name="company_field"  required>
+            </li>
+
+            <li> <label class="form_label" > رقم الجوال   : </label>
+                <input class="form_input" id="contact_no" type="text" name="contact_no"  required>
+            </li>
+
+                
+            <li><label class="form_label" > البريد الالكتروني : </label> 
+                
+                <input class="form_input" id="email" type="email" name="email"  required>
+            </li> 
+
+            
+
+
+        </ul>
+
+        <input id="submit" type="submit" name="submit" value="تسجيل ">
+
+        </form>
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>
